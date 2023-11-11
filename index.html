@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diwali Wishes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f5f5f5;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .card {
+            max-width: 600px;
+            margin: 50px auto;
+            margin-top: 10px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            opacity: 0;
+            animation: fadeIn 1.5s ease-out forwards;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #3498db;
+            text-shadow: 2px 2px 2px #ecf0f1;
+            letter-spacing: 2px;
+        }
+
+        .header {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f39c12;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            position: relative;
+        }
+
+        .header img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 3px;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            margin-bottom: 0;
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+        }
+
+        .content {
+            margin-top: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 3px;
+        }
+
+        .glow-text {
+            font-size: 17px;
+            font-weight: bold;
+            color: #f39c12;
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px #f39c12;
+            }
+
+            to {
+                text-shadow: 0 0 20px #f39c12;
+            }
+        }
+
+        .name {
+            font-size: larger;
+            font-weight: bold;
+            color: #2c3e50;
+            animation: floatName 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes floatName {
+            from {
+                transform: translateY(0);
+            }
+
+            to {
+                transform: translateY(-5px);
+            }
+        }
+
+        small a {
+            color: #c4dff1; /* Set your preferred color */
+            text-decoration: none; /* Remove underline */
+            font-weight: bold; /* Make the link bold if desired */
+        }
+
+        small a:hover {
+            text-decoration: underline; /* Add underline on hover if desired */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="card">
+            <div class="header">
+                <img src="10001.png" alt=""> <br>
+                <h3 class="title">Our Product Our Strength</h3>
+                <a href="https://www.gsirubber.in/" style="cursor: pointer;" class="badge">www.gsirubber.in</a> <br>
+                <small>Email id : <a href="mailto:gsirubber2&commat;gmail.com">gsirubber2&commat;gmail.com</a></small>
+            </div>
+            <div class="content">
+                <img src="diwali.jpg" alt="Diwali Wishes">
+                <p style="font-size: 13px;" class="glow-text">May this Diwali bring joy, prosperity, and success to your life. Wishing you and
+                    your family a bright and colorful Diwali!</p>
+                <p style="font-size: 13px;" class="name"><span  class="text2">Best Wishes</span>,<br>
+                    K.P Govindarajan <span style="font-size:8px;"> B.Tech (Polymer Engineering)</span><br>
+                    General Manager - <span style="font-size:10px;">Technical & Marketing</span> <br>
+                GS INTERNATIONAL RUBBER PRODUCTS
+                </p>
+            </div>
+        </div>
+        <div class="text-center">
+            <p style="font-size: 20px;">Address :</p>
+                   <p> 92/<7,Town Planning Nagar</p>
+                   <p> Salem -636004. INDIA.</p>
+                   <p> Mobile : +91 7339604914</p>
+                   <p> : +91 8778388914</p>
+        </div>
+    </div>
+</body>
+
+</html>
